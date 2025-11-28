@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV – Vicky Martinez Stumpf</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom CSS to define the Ardene Pink color for Tailwind */
+    :root {
+      --ardene-pink: #ff2ea6;
+    }
+    .text-ardene-pink { color: var(--ardene-pink); }
+    .border-ardene-pink { border-color: var(--ardene-pink); }
+    .bg-ardene-pink { background-color: var(--ardene-pink); }
+    
+    /* Ensure list-style for unordered lists (ul) uses a disc by default if not specified by Tailwind */
+    ul {
+      list-style-type: disc;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+<body class="font-sans antialiased text-neutral-900 bg-neutral-100 leading-relaxed">
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+</body>
+</html>
